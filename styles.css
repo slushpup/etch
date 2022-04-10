@@ -1,0 +1,28 @@
+.container{
+    display: flex;
+    width: 60%;
+    margin: 0 auto;
+    border: solid black 1px;
+    /* flex-direction: column; */
+
+    /* width: 800px;
+    height: 800px; */
+    /* aspect-ratio: 1 / 1; */
+}
+
+.row{
+    /* display: flex;
+    flex-direction: column; */
+    flex-grow: 1;
+}
+.column{
+    /* flex: 1; */
+    aspect-ratio: 1 ;
+    border: solid lightslategray 0.5px;
+}
+
+
+/* * {
+    outline: auto;
+    margin: 0 0;
+} */
